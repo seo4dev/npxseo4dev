@@ -2,9 +2,12 @@
   "name": "npx-seo4dev",
   "version": "1.0.0",
   "description": "Seo4dev npx links card",
-  "main": "index.js",
+  "main": "./scripts/links.mjs",
+  "bin": {
+    "seo4dev": "./scripts/links.mjs"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "card": "node ./scripts/links.mjs"
   },
   "repository": {
     "type": "git",
@@ -17,9 +20,13 @@
     "Elmer"
   ],
   "author": "seo4dev",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/seo4dev/npxseo4dev/issues"
   },
-  "homepage": "https://github.com/seo4dev/npxseo4dev#readme"
+  "homepage": "https://seo4dev.com",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1"
+  }
 }
