@@ -1,0 +1,25 @@
+{
+  "name": "npx-seo4dev",
+  "version": "1.0.0",
+  "description": "Seo4dev npx links card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seo4dev/npxseo4dev.git"
+  },
+  "keywords": [
+    "seo4dev",
+    "links",
+    "Ash",
+    "Elmer"
+  ],
+  "author": "seo4dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seo4dev/npxseo4dev/issues"
+  },
+  "homepage": "https://github.com/seo4dev/npxseo4dev#readme"
+}
