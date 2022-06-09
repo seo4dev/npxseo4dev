@@ -1,5 +1,5 @@
 {
-  "name": "npx-seo4dev",
+  "name": "seo4dev",
   "version": "1.0.0",
   "description": "Seo4dev npx links card",
   "main": "./scripts/links.mjs",
