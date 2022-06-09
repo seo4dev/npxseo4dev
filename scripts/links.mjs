@@ -4,7 +4,6 @@ import boxen from "boxen";
 import chalk from "chalk";
 import asciify from "asciify-image";
 
-
 const boxenOptions = {
   padding: 1,
   width: 54,
@@ -55,7 +54,10 @@ var options = {
   height: 25,
 };
 
-asciify("./seo4dev.png", options)
+asciify(
+  "https://raw.githubusercontent.com/seo4dev/npxseo4dev/main/seo4dev.png",
+  options
+)
   .then(function (asciified) {
     // Print asciified image to console
     console.log(asciified);
