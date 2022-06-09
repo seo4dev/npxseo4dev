@@ -26,7 +26,9 @@
   },
   "homepage": "https://seo4dev.com",
   "dependencies": {
+    "asciify-image": "^0.1.8",
     "boxen": "^6.2.1",
-    "chalk": "^5.0.1"
+    "chalk": "^5.0.1",
+    "g": "^2.0.1"
   }
 }
